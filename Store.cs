@@ -51,5 +51,10 @@ namespace UML2
             menuCatalog.PrintMenu();*/
 
         }
+
+        public void Run()
+        {
+            new UserDialog(menuCatalog).Run();
+        }
     }
 }

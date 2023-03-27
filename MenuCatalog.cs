@@ -18,6 +18,10 @@ namespace UML2
 
         public void PrintMenu()
         {
+            foreach(Pizza p in _pizzas)
+            {
+                Console.WriteLine(p);
+            }
 
         }
 
