@@ -18,9 +18,9 @@ namespace UML2
         {
             Pizza pizzaItem = new Pizza();
             Console.Clear();
-            Console.WriteLine("----------------------");
-            Console.WriteLine("| Creating Pizza     |");
-            Console.WriteLine("----------------------");
+            Console.WriteLine("-----------------------");
+            Console.WriteLine("| Creating Pizza      |");
+            Console.WriteLine("-----------------------");
             Console.WriteLine();
             Console.Write("Enter name: ");
             pizzaItem.Name = Console.ReadLine();
